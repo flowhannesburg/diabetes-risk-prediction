@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+
+# Data files (you can comment out if you want to track specific datasets)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE/project settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Machine learning artifacts
+*.model
+*.pkl
+*.joblib
